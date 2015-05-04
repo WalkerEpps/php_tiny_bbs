@@ -1,0 +1,61 @@
+/*color1: #6d8397;*/
+/*color2: #307fa7;*/
+/*color3: #3d8c7d;*/
+/*color4: #df6955;*/
+/*color5: #8aea92;*/
+
+html,body{height: 100%;}
+body{
+	font-size: 14px;
+	font-family: 'Hiragino Kaku Gothic Pro', 'Hiragino Kaku Gothic ProN', Meiryo;
+	margin: 0px;
+	background-color: #6d8397;
+}
+h1{
+	text-align: center;
+	color: #307fa7;
+}
+#outline{
+	background-color: #fff;
+	width: 500px;
+	min-height: 100%;
+	margin: 0 auto;
+	padding: 23px 43px;
+	border: 1px white solid;
+}
+textarea{
+	font-size: 21px;
+	width: 99%;
+
+	background-color: white;
+	/* border-radius */
+	border-radius:1px;
+	-webkit-border-radius:1px;
+	-moz-border-radius:1px;
+
+	/* box-shadow */
+	box-shadow:rgb(223, 106, 85) 0px 0px 3px 2px;
+	-webkit-box-shadow:rgb(223, 106, 85) 0px 0px 3px 2px;
+	-moz-box-shadow:rgb(223, 106, 85) 0px 0px 3px 2px;
+}
+input, button{
+	background-color: #8aea92;
+	font-size: 18px;
+	padding: 5px;
+	width: 100%;
+	border: #6d8397 solid 1px;
+}
+
+p {
+	border-radius:1px;
+	padding: 13px;
+	border: 8px solid #3d8c7d;
+}
+hr + p{
+	font-weight: bold;
+	padding: 13px;
+	border: 8px solid #df6955;
+}
+hr + p + p{
+	font-weight: bold;
+}
