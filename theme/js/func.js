@@ -1,6 +1,6 @@
-function go(){
+function postComment(){
 	if(event.keyCode==13){
-		document.post.submit();
+		document.f.submit();
 	}
 }
 
